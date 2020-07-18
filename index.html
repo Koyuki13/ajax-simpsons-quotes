@@ -49,7 +49,11 @@
             });
     }
     fetchSimpsonsJSON();
-
+// getElementById il va sélectionner l'element html avec l'id 'btn'
+    //.addEventListener("click", function() il se tient pret à executer une fonction quand il dectecte un click
+    //fetchSimpsonsJSON(); il effectue la fonction qui a été initialiser en ligne 31
+    // ce qui permet de recharger de manière dymanique la page
+    // document est une fonction native de javascript
     document.getElementById("btn").addEventListener("click", function() {
         fetchSimpsonsJSON();
     });
